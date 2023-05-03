@@ -32,7 +32,7 @@ access_token = config['twitter']['access_token']
 access_token_secret = config['twitter']['access_token_secret']
 
 search_term = 'stocks'
-tweet_amount = 300
+tweet_amount = 200
 
 tweet_list = []
 
