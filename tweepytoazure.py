@@ -17,7 +17,7 @@ import pyodbc
 import yaml
 import os
 
-
+# Small update to see how this works when committed
 # Reading new .ini config file with peter's twitter details
 config = configparser.ConfigParser()
 config.read('C://Users//PeterDuong//Desktop//Python Projects//TweepyToAzureDB//config.ini')
@@ -32,7 +32,7 @@ access_token = config['twitter']['access_token']
 access_token_secret = config['twitter']['access_token_secret']
 
 search_term = 'stocks'
-tweet_amount = 250
+tweet_amount = 300
 
 tweet_list = []
 
