@@ -100,3 +100,5 @@ cursor.executemany(insert_sql, params)
 
 cursor.commit()
 cursor.close()
+
+# TEST NEW LINE
